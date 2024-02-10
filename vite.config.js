@@ -30,6 +30,9 @@ const config = () => {
             environment: 'jsdom',
         },
         base: '/',
+        preview: {
+            port: 80,
+        },
         server: {
             historyApiFallback: true,
             proxy: {
