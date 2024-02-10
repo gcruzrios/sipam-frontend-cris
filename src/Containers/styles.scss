@@ -1,0 +1,19 @@
+
+.dashboard-layout {
+  .layout-common {
+      min-height: calc(100vh - 126px);
+    }
+  
+}
+
+.layout-with-footer {
+  min-height: 100vh;
+  .layout-common {
+      min-height: calc(100vh - 56px);
+    }
+}
+
+.layout-common {
+  background-size: cover;
+  position: relative;
+}

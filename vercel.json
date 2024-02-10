@@ -1,0 +1,42 @@
+{
+    "version": 2,
+    "rewrites": [
+
+        {
+            "source": "/api/:path*",
+            "destination": "https://172.173.213.146/WSSIPAM/wsSIPAM/:path*"
+        },
+        {
+            "source": "/api/:path*/",
+            "destination": "https://172.173.213.146/WSSIPAM/wsSIPAM/:path*/"
+        },
+        {
+            "source": "/docs/:path*",
+            "destination": "https://172.173.213.146/WSSIPAM/docsSIPAM/:path*"
+        },
+        {
+            "source": "/docs/:path*/",
+            "destination": "https://172.173.213.146/WSSIPAM/docsSIPAM/:path*/"
+        },
+        {
+            "source": "/mock/:path*",
+            "destination": "https://sipam-mock-be.vercel.app/:path*"
+        },
+        {
+            "source": "/mock/:path*/",
+            "destination": "https://sipam-mock-be.vercel.app/:path*/"
+        },
+        {
+            "source": "/googleapis/:path*",
+            "destination": "https://maps.googleapis.com/:path*"
+        },
+        {
+            "source": "/googleapis/:path*/",
+            "destination": "https://maps.googleapis.com/:path*/"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
+}

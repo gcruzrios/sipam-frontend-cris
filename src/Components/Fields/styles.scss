@@ -1,0 +1,27 @@
+.toggle-password-btn {
+    z-index: 1000;
+    margin-left: -36px !important;
+    background: transparent;
+    border: none;
+}
+
+.search-field-dark {
+    background-color: white;
+}
+
+.search-field-light {
+    & > .input-group > .form-control {
+        &::placeholder {
+            color: var(--bs-gray-500);
+        }
+
+        &::-moz-placeholder {
+            color: var(--bs-gray-500);
+        }
+
+        &::-webkit-input-placeholder {
+            color: var(--bs-gray-500);
+        }
+    }
+}
+

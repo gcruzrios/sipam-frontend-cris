@@ -1,0 +1,41 @@
+.table.sipam-table {
+  text-wrap: nowrap;
+
+  & > :not(caption) > * > * {
+    background-color: unset;
+    padding: 0.75rem 0.75rem;
+  }
+
+  th {
+    background-color: #e5f0ff;
+  }
+
+  th:first-child {
+    border-top-left-radius: var(--bs-border-radius) !important;
+    border-bottom-left-radius: var(--bs-border-radius) !important;
+  }
+
+  th:last-child {
+    border-top-right-radius: var(--bs-border-radius) !important;
+    border-bottom-right-radius: var(--bs-border-radius) !important;
+  }
+}
+
+.initial-page-table {
+  .source-selector {
+    position: relative;
+    top: 18px;
+  }
+}
+
+th.MuiTableCell-root.MuiTableCell-head {
+  background-color: #e5f0ff;
+}
+
+.MuiPaper-root > .MuiBox-root {
+  background-color: #e5f0ff;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-adornedStart.MuiInputBase-adornedEnd.css-1v8abvc-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+.btn-flat {
+    border-radius: 5px !important;
+}
+
+.btn-side-nav {
+    &.inactive:hover {
+        background: var(--bs-primary);
+    }
+}
+
+.btn-xs {
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+}

@@ -1,0 +1,43 @@
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.principal-info {
+  color: #FFF;
+  font-size: 2.5rem;
+}
+
+.info {
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.content {
+  padding: 3rem;
+}
+
+
+.form-control {
+  background-color: #E9F0FD;
+  ;
+}
+
+.btn-light {
+  color: #454647;
+}
+
+.btn-primary {
+  &:hover {
+    background-color: #fff;
+    color: #044784;
+    font-weight: bold;
+  }
+}

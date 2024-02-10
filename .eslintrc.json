@@ -1,0 +1,60 @@
+{
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "eslint:recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:storybook/recommended"
+    ],
+    "plugins": [
+        "jsx-a11y"
+    ],
+    "rules": {
+        "no-unused-vars": [
+            "warn",
+            {
+                "argsIgnorePattern": "^_|^.$",
+                "varsIgnorePattern": "^_|^R$"
+            }
+        ],
+        "curly": [
+            "error",
+            "multi-line"
+        ],
+        "no-irregular-whitespace": [
+            "error",
+            {
+                "skipStrings": true,
+                "skipTemplates": true
+            }
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "eqeqeq": [
+            "error",
+            "smart"
+        ],
+        "no-use-before-define": [
+            "error",
+            {
+                "functions": false,
+                "classes": true,
+                "variables": true,
+                "allowNamedExports": false
+            }
+        ],
+        "react-hooks/rules-of-hooks": "warn",
+        "react-hooks/exhaustive-deps": "error"
+    }
+}
