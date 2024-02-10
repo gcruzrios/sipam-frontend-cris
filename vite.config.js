@@ -31,7 +31,7 @@ const config = () => {
         },
         base: '/',
         preview: {
-            port: 80,
+            port: 8000,
         },
         server: {
             historyApiFallback: true,
